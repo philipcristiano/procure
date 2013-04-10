@@ -1,0 +1,8 @@
+name: graphite
+region: us-east-1
+ami: ami-1ebb2077
+instance-type: m1.large
+security-groups:
+  - external
+  - internal
+  - graphite

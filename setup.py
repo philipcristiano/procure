@@ -8,15 +8,15 @@ def read(fname):
 
 def run_setup():
     setup(
-        name='',
+        name='procure',
         version='0.0.1',
-        description='',
-        keywords = '',
-        url='',
-        author='',
-        author_email='@',
+        description='AWS server procurement',
+        keywords = 'AWS',
+        url='http://github.com/philipcristiano/procure',
+        author='Philip Cristiano',
+        author_email='philipcristiano@gmail.com',
         license='',
-        packages=[''],
+        packages=['procure'],
         install_requires=[
         ],
         test_suite='tests',
